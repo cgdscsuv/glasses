@@ -1,0 +1,25 @@
+.pass-box{
+    width: 314px;
+    height: 30px;
+    border: 1px solid #ddd !important;
+    background: #f5f5f5;
+    color: #bcbcbc;
+    font-size: 15px;
+    position: relative;
+    margin: 17px 0 7px;
+}
+.pass-box input{
+    width: 243px;
+    padding-left: 10px;
+    float: left;
+}
+.pass{
+    width: 61px;
+    height: 32px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    float: right;
+    cursor: pointer;
+}

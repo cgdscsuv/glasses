@@ -1,0 +1,396 @@
+.head-item:nth-child(1) .list{
+    color: #f68769;
+}
+/* 轮播开始 */
+.big-banner{
+    width: 100%;
+    height: 532px;
+    overflow: hidden;
+    position: relative;
+}
+.banner-box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.banner1{
+    background: url(../img/banner1.jpg) no-repeat center center/100% 100%;
+}
+.banner2{
+    background: url(../img/banner2.jpg) no-repeat center center/100% 100%;
+}
+.banner-content{
+    position: absolute;
+    top: 230px;
+    left: 284px;
+    opacity: 0;
+    z-index: 5;
+    color: rgb(51,51,51);
+    transition: all .5s;
+}
+.banner-title{
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+.banner-desc{
+    font-size: 17px;
+    margin-top: 10px;
+    letter-spacing: 3px;
+}
+.banner-more{
+    width: 96px;
+    height: 20px;
+    border: 1px solid rgb(51,51,51);
+    font-size: 11px;
+    text-align: center;
+    line-height: 20px;
+}
+.banner-dots{
+    width: 122px;
+    height: 6px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 20px;
+}
+.banner-dot{
+    width: 46px;
+    height: 6px;
+    float: left;
+    margin-left: 10px; 
+    border: 1px solid #f48f6f;
+    box-sizing: border-box;
+   cursor: pointer;
+}
+.active{
+    background: #f48f6f;
+    border-color: transparent;
+}
+/* 轮播结束 */
+/* 介绍开始 */
+.introduce{
+    width: 1200px;
+    height: 362px;
+    margin: 20px auto 0;
+}
+.introduce-item{
+    width: 290px;
+    height: 362px;
+    float: left;
+    margin: 0 5px;
+    background: #f5f5f5;
+}
+.introduce-title{
+    width: 100%;
+    height: 26px;
+    margin-top: 41px;
+    color: rgb(68, 68, 68);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 26px;
+}
+.introduce-review{
+    width: 100%;
+    height: 24px;
+    margin-top: 18px;
+    color: rgb(136, 136, 136);
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+}
+.introduce-item img{
+    display: block;
+    margin-top: 32px;
+}
+.introduce-detail{
+    width: 290px;
+    height: 176px;
+    overflow: hidden;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+.introduce-detail:nth-child(2){
+    border-top: 10px solid #fff;
+}
+.introduce-desc{
+    width: 100%;
+    height: 26px;
+    color: rgb(68, 68, 68);
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+}
+.introduce-detail img{
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 10px auto 0;
+}
+/* 介绍结束 */
+/* 关于我们开始 */
+.aboutus{
+    width: 100%;
+}
+.aboutus .background{
+    width: 934px;
+    height: 91px;
+    margin: 50px auto 53px ;
+    background: url(../img/about-us.png) no-repeat center center;
+    position: relative;
+}
+.about-title{
+    width: 100%;
+    height: 47px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    text-align: center;
+    line-height:35px; 
+    font-size:26px;
+    color:#333;
+    letter-spacing: 5px;
+}
+.about-title span{
+    display: block;
+    width: 40px;
+    border-bottom: 2px solid #333;
+    margin: 10px auto 0;
+}
+.brand-row{
+    width: 1200px;
+    height: 373px;
+    margin: 53px auto 97px;
+}
+.brand-row-left{
+    width: 390px;
+    height: 100%;
+    border: 2px solid rgba(233,236,241,1);
+    box-sizing: border-box;
+    margin: 0 5px;
+    float: left;
+}
+.row-left-content{
+    width: 306px;
+    height: 267px;
+    padding: 40px 40px 62px;
+}
+.content-title{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 48px;
+    color: #373a41;
+}
+.content-char{
+    font-size: 14px;
+    color: rgb(136, 136, 136);
+    line-height: 25px;
+    margin-bottom: 14px;
+}
+.more{
+    display: block;
+    width: 98px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #f68769;
+    color: #ffffff;
+}
+.brand-row-right{
+    width: 790px;
+    height: 100%;
+    margin: 0 5px;
+    float: left;
+}
+.res-row{
+    width: 100%;
+    height: 427px;
+    margin: 0 auto;
+    background: #f5f5f7;
+    text-align: center;
+}
+.res-row-left,.res-row-right{
+    display: inline-block;
+    width: 590px;
+    height: 100%;
+    margin: 0 5px;
+    position: relative;
+}
+.res-right-content{
+    width: 570px;
+    height: 180px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    right: 0;
+    text-align: right;
+    color: #f68769;
+}
+.res-content1{
+    font-family: tahoma;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 0 5px 0;
+}
+.res-content2{
+    font-family: 微软雅黑;
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: bold;
+}
+.res-content3{
+    width: 238px;
+    height: 34px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 34px;
+    background-color: #f68769;
+    display: inline-block;
+    margin: 10px 0 8px;
+}
+.res-content4{
+    font-size: 12px;
+    font-family: tahoma;
+    line-height: 26px;
+}
+/* 关于我们结束 */
+/* 经典光学眼镜开始 */
+.classics{
+    width: 100%;
+    height: 1200px;
+}
+.classics .background{
+    width: 934px;
+    height: 91px;
+    margin: 50px auto 50px ;
+    background: url(../img/product.jpg) no-repeat center center;
+    position: relative;
+}
+.classics-body{
+    width: 1200px;
+    height: 476px;
+    margin: 0 auto;
+}
+.classics-content{
+    width: 290px;
+    height: 445px;
+    margin: 0 5px;
+    float: left;
+}
+.middle{
+    width: 580px;
+    margin: 0 10px;
+}
+.classics-item{
+    width: 100%;
+    height: 217.5px;
+    background: #f5f5f5;
+    margin-top: 10px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.clear{
+    margin: 0;
+}
+.classics-item div{
+    font-size: 20px;
+    text-align: center;
+    line-height: 26px;
+    margin-top: 21px;
+}
+.classics-goods{
+    width: 1200px;
+    height: 550px;
+    margin: 30px auto ;
+}
+.goods-list{
+    width: 25%;
+    height: 50%;
+    float: left;
+    padding: 21px 27px;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: center;
+    line-height: 28px;
+}
+/* 经典光学眼镜结束 */
+/* 璀璨太阳眼镜开始 */
+/* 璀璨太阳眼镜开始 */
+.sunglassics{
+    width: 100%;
+    height: 1180px;  
+}
+.sunglassics .background{
+    width: 934px;
+    height: 91px;
+    margin: 50px auto 50px ;
+    background: url(../img/product\ \(2\).jpg) no-repeat center center;
+    position: relative;
+}
+.sunglassics-body{
+    width: 1200px;
+    height: 386px;
+    margin: 0 auto;
+}
+.sunglassics-item{
+    width: 590px;
+    height: 386px;
+    margin: 0 5px;
+    float: left;
+    background: #f4f4f4;
+}
+.sunglassics-img,.sunglassics-desc{
+    width: 295px;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.desc-title{
+    width: 100%;
+    height: 73px;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000;
+    margin-top: 64px;
+    position: relative;
+}
+.desc-title span{
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 27px;
+}
+.desc-value{
+    font-size: 20px;
+    margin: 20px 0 13px;
+}
+.desc-value del{
+    font-size: 16px;
+    color: rgb(136, 136, 136);
+}
+.desc-buy{
+    display: inline-block;
+    width: 107px;
+    height: 29px;
+    font-size: 13px;
+    line-height: 29px;
+    border: 1px solid rgb(119, 119, 119);
+    color: rgb(119, 119, 119);
+    transition: all .3s linear;
+}
+.desc-buy:hover{
+    border: 1px solid rgb(70,70,70);
+    background: rgb(70,70,70);
+    color: #fff;
+}
+/* 璀璨太阳眼镜结束 */

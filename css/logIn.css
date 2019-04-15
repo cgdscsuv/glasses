@@ -1,0 +1,129 @@
+.middle{
+    width: 100%;
+    height: 780px;
+    background: url(../img/login.jpg) no-repeat center center/auto 100%;
+}
+.shade{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+.logbox{
+    width: 1200px;
+    height: 692px;
+    margin: 40px auto 0;
+    position: relative;
+}
+.login{
+    width: 370px;
+    height: 692px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+.img-title{
+    display: block;
+    width: 90px;
+    height: 30px;
+    margin: 40px auto 15px;
+}
+.login-title{
+    width: 100%;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 20px;
+}
+.login-title span{
+    font-weight: 700;
+}
+.login-middle{
+    width: 318px;
+    height: 302px;
+    margin: 38px auto 26px;
+}
+.num,.password{
+    width: 278px;
+    height: 30px;
+    padding: 0 8px 0 28px;
+    border: 1px solid #ddd !important;
+    background: #f5f5f5;
+    color: #bcbcbc;
+    font-size: 15px;
+    position: relative;
+}
+.login-middle>.num>.iconfont,.login-middle>.password>.iconfont{
+    position: absolute;
+    top: 7.5px;
+    left: 6.5px;
+}
+input{
+    width: 278px;
+    height: 30px;
+    border:none;
+    background: #f5f5f5;
+    color: #000000 !important;
+    outline: none;
+}
+.password{
+    margin: 17px 0 7px;
+}
+.remember{
+    width: 100%;
+    padding: 5px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 15px;
+}
+.remember span{
+    font-size: 12px;
+    color: #888;
+}
+.denglu{
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    background: #292929 !important;
+    border: 1px solid #292929 !important;
+    font-size: 13px;
+    color: #fff !important;
+    margin-bottom: 5px;
+}
+.zhuce{
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 5px;
+}
+.another{
+    width: 100%;
+    height: 33px;
+    font-size: 12px;
+    line-height: 33px;
+    color: #446D96;
+}
+.another .iconfont{
+    font-size: 20px;
+}
+.forget{
+    width: 120px;
+    height: 30px;
+    padding: 0 30px;
+    margin-top: 28px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #000;
+    float: right;
+}
+.login-desc{
+    width: 310px;
+    height: 150px;
+    padding: 29px 30px 38px;
+    color: #808080;
+    font-size: 13px;
+    line-height: 26px;
+}

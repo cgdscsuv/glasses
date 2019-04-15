@@ -1,0 +1,34 @@
+.head-item:nth-child(3) .list{
+    color: #f68769;
+}
+.nav-list:nth-child(3) a{
+    color: #f68769;
+}
+.middle-box{
+    width: 100%;
+    /* height: 1811px; */
+}
+.goods-box{
+    width: 1200px;
+    height: 631px;
+    margin: 0 auto;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.goods{
+    width: 1200px;
+    height: 511px;
+    background: #fff;
+    position: relative;
+}
+.goods-item{
+    width: 252px;
+    height: 232px;
+    padding: 0 40px 15px 0;
+    float: left;
+    text-align: center;
+}
+.goods-item img{
+    width: 100%;
+    height: auto;
+}

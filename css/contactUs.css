@@ -1,0 +1,92 @@
+.head-item:nth-child(5) .list{
+    color: #f68769;
+}
+/* 内容开始 */
+.middle-con{
+    width: 100%;
+    height: 708px;
+}
+.middle-top{
+    width: 1190px;
+    height: 300px;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+.middle-bottom{
+    width: 1200px;
+    height: 268px;
+    padding: 40px 0 100px;
+    margin: 0 auto;
+}
+.middle-bottom-left{
+    width: 313px;
+    height: 268px;
+    padding: 0 82px 0 5px;
+    background: #fff;
+    float: left;
+}
+.header-title{
+    font-family: 微软雅黑;
+    font-size: 26px;
+    color: #000000;
+    padding: 0 0 10px 0;
+}
+.header-etitle{
+    font-family: Roboto Condensed;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    color: #000000;
+    padding: 0 0 10px 0;
+}
+.header-line{
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #000000;
+    margin-bottom: 27px;
+}
+.info{
+    font-size: 15px;
+    color: #7a7a7a;
+}
+.middle-bottom-right{
+    width: 790px;
+    height: 248px;
+    padding: 20px 5px 0;
+    float: left;
+}
+.name,.email,.phone,.con{
+    display: inline-block;
+    float: left;
+    width: 378px;
+    height: 34px;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 2px 0 2px 5px;
+    margin: 0 10px 13px 0;
+    font-size: 14px;
+    outline: none;
+}
+.email{
+    width: 388px;
+    margin-right: 0;
+}
+.phone{
+    width: 783px;
+    margin-right: 0;
+}
+.con{
+    width: 783px;
+    height: 57px;
+    margin-right: 0;
+    font-size: 14px;
+}
+button{
+    width: 154px;
+    height: 46px;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+}
+/* 内容结束 */

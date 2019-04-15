@@ -1,0 +1,154 @@
+.head-item:nth-child(4) .list{
+    color: #f68769;
+}
+.middle1-box{
+    width: 100%;
+    height: 837px;
+    padding: 40px 0 100px;
+}
+.middle1-content{
+    width: 1200px;
+    height: 837px;
+    margin: 0 auto;
+}
+.middle1-content-left{
+    width: 749px;
+    height: 837px;
+    margin-left: 5px;
+    float: left;
+    padding-right: 40px;
+    border-right: 1px solid rgba(237,237,237,1);
+}
+.middle1-left-nav{
+    width: 100%;
+    height: 37px;
+    padding-bottom: 10px;
+}
+.middle1-left-item{
+    width: 120px;
+    height: 37px;
+    margin-right: 20px;
+    float: left;
+    border: 1px solid rgba(237,237,237,1);
+    box-sizing: border-box;
+    cursor: pointer;
+    line-height: 35px;
+    text-align: center;
+    font-family: 微软雅黑;
+    font-size: 15px;
+    background-color: #ffffff;
+    color: #666666;
+}
+.middle1-left-item:hover{
+    border-color: #000000;
+}
+.middle1-left-con{
+    width: 100%;
+    height: 750px;
+    background: #ffffff;
+}
+.middle1-con-item{
+    width: 737px;
+    height: 109px;
+    padding: 0 5px 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted #e5e5e5;
+}
+.guide1img{
+    display: block;
+    margin-right: 20px;
+    float: left;
+}
+.blog-con{
+    width: 562px;
+    height: 109px;
+    padding-right: 5px;
+    float: left;
+}
+.blog1{
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.blog1:hover{
+    color: #666666;
+}
+.blog2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #bababa;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 5px;
+}
+.blog3{
+    color: #999999;
+    font-size: 13px;
+}
+.mypages{
+    width: 100%;
+    height: 18px;
+    padding: 3px 0 5px;
+}
+.page1{
+    display: block;
+    float: left;
+    width: 18px;
+    height: 16px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 16px;
+    margin-right: 5px;
+}
+.page2,.nextpage,.lastpage{
+    display: block;
+    float: left;
+    width: 18px;
+    height: 16px;
+    border: 1px solid #000000;
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+    line-height: 16px;
+    margin-right: 5px;
+}
+.nextpage{
+    width: 48px;
+}
+.lastpage{
+    width: 36px;
+}
+.middle1-content-right{
+    width: 368px;
+    height: 837px;
+    padding: 0 5px 0 32px;
+    float: left;
+}
+.middle1-right-title{
+    font-family: 微软雅黑;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    padding: 0 0 10px 0;
+}
+.middle1-right-text{
+    font-size: 14px;
+    line-height: 25px;
+    color: #7a7a7a;
+}
+.middle1-right-img{
+    width: 368px;
+    padding-top: 23px;
+}
+.middle1-right-img img{
+    width: 100%;
+    height: auto;
+}
